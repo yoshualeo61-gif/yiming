@@ -1,0 +1,6 @@
+# yiming needs only the Python standard library (3.8+).
+# Optional extras:
+# pypinyin    # readings for characters missing from the rhyme books
+# anthropic   # `propose`: LLM proposals for unknown names
+# opencc      # rebuilding mc_table.json with build_mc.py
+# markdown-it-py  # rebuilding docs/指南.html with docs/build_html.py

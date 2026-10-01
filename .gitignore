@@ -1,0 +1,15 @@
+# texts you download yourself
+corpus/
+corpus_raw/
+cache/
+# built locally by `python yiming.py setup`
+variants.json
+# LLM step outputs (personal, may contain API results)
+llm_cache.json
+lexicon_proposed.tsv
+# generated reading pages and sites
+*_site/
+reading.html
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,132 @@
+# Original-language forms of names written in Chinese characters.
+# status: attested = identification established in scholarship (see source); llm-proposed rows live in lexicon_proposed.tsv
+# family: Iranian | Turkic | Mongolic | Para-Mongolic | Tungusic | Tibetic | Indic | Dravidian | Semitic | Austronesian | European | Other
+# entity: rows with the same entity id are different NAMES for one thing (cross-referenced, not merged)
+# exclude: | strings where the form is NOT this name (e.g. 鲁迷 inside the Turkic name ending 鲁迷失)
+# kind: person | name-element | title | ethnonym | place | dynasty | term
+# scheme: era of the EARLIEST listed form (mc Han–Tang, om Song–Ming, qm Qing+). An entry never
+#   matches in a book of an earlier era: 古里 (Calicut, Ming) is not Calicut in the 旧唐书.
+id	original	language	family	gloss	forms	kind	scheme	source	status	entity	exclude
+roxshan	Roxšan	Sogdian	Iranian	"bright, light"; same root as Greek Roxana	禄山|轧荦山	name-element	mc	Pulleyblank 1955; de la Vaissière, Sogdian Traders	attested		
+temur	Temür	Mongolic / Turkic	Mongolic	"iron"	帖木儿|铁木儿|帖睦尔	name-element	om	standard	attested		
+temujin	Temüjin	Mongolic	Mongolic	personal name of Chinggis Khan	铁木真	person	om	Secret History of the Mongols	attested		
+subeetei	Sübe'etei	Mongolic	Mongolic	Chinggis Khan's general	速不台|雪不台	person	om	元史 (two biographies)	attested		
+oyirad	Oyirad	Mongolic	Mongolic	the Oirats (plural -d)	斡亦剌|斡亦剌惕|瓦剌|厄鲁特|卫拉特	ethnonym	om	standard	attested		
+baghatur	ba'atur	Mongolic	Mongolic	"hero"	拔都|拔都儿|把阿秃儿	name-element	om	standard	attested		
+noyan	noyan	Mongolic	Mongolic	"lord, commander"	那颜	title	om	standard	attested		
+darughachi	daruγači	Mongolic	Mongolic	resident overseer	达鲁花赤	title	om	standard	attested		
+keshig	kešig	Mongolic	Mongolic	imperial guard	怯薛	term	om	standard	attested		
+jisun	jisün	Mongolic	Mongolic	"colour"; single-colour court robe	只孙|质孙	term	om	明史·舆服志	attested		
+qatun	qatun	Old Turkic / Mongolic	Turkic	"queen, consort"	可敦|哈屯	title	mc	standard	attested		
+qaghan	qaγan	Old Turkic	Turkic	"supreme ruler"	可汗|合罕	title	mc	standard	attested		
+tegin	tegin	Old Turkic	Turkic	"prince" (特勒 is a scribal error for 特勤)	特勤|特勒	title	mc	Orkhon inscriptions (Kül Tegin)	attested		
+yabghu	yabγu	Old Turkic	Turkic	high title below qaghan	叶护	title	mc	standard	attested		
+turk	Türk	Old Turkic	Turkic	ethnonym	突厥	ethnonym	mc	standard	attested		
+uyghur	Uyγur	Old Turkic	Turkic	ethnonym; same name across eras	回纥|回鹘|畏兀儿|畏吾儿|畏吾|畏兀|维吾尔	ethnonym	mc	standard	attested		
+qirqiz	Qïrqïz	Old Turkic	Turkic	the Kyrgyz	黠戛斯	ethnonym	mc	standard	attested		
+tabghach	Tabγač	Xianbei (via Old Turkic)	Para-Mongolic	Northern Wei ruling clan; Old Turkic name for China	拓跋|托跋|拓拔|托拔	ethnonym	mc	Old Turkic inscriptions; Shimunek 2017	attested		
+qitan	Kitan	Khitan	Para-Mongolic	the Khitans	契丹	ethnonym	mc	standard	attested		
+jurchen	Jürchen	Jurchen	Tungusic	the Jurchens	女真|女直	ethnonym	mc	standard	attested		
+sogd	Soγd	Sogdian	Iranian	Sogdiana / Sogdians	粟特|窣利	ethnonym	mc	standard	attested		
+samarkand	Samarkand	Sogdian	Iranian	city of Sogdiana	飒秣建|撒马儿罕|撒马尔罕	place	mc	大唐西域记; 明史	attested		
+khotan	Hvatana	Khotanese Saka	Iranian	Khotan	于阗	place	mc	standard	attested		
+hephthal	Hephthal	Bactrian	Iranian	the Hephthalites	嚈哒|挹怛	ethnonym	mc	standard	attested		
+kushan	Kušan	Bactrian	Iranian	the Kushan dynasty	贵霜	dynasty	mc	standard	attested		
+arsak	Aršak	Parthian	Iranian	Arsacid Parthia	安息	dynasty	mc	standard	attested		
+kanishka	Kaniška	Bactrian	Iranian	Kushan emperor	迦腻色伽	person	mc	standard	attested		
+buddha	Buddha	Sanskrit	Indic	"awakened"	佛陀|浮屠|浮图	term	mc	standard	attested		
+kumarajiva	Kumārajīva	Sanskrit	Indic	translator-monk	鸠摩罗什	person	mc	standard	attested		
+asoka	Aśoka	Sanskrit	Indic	Mauryan emperor	阿育	person	mc	standard	attested		
+sramana	śramaṇa	Sanskrit (via Middle Indic)	Indic	Buddhist monk	沙门	term	mc	standard	attested		
+jesus	Išoʿ	Syriac	Semitic	Jesus	移鼠|耶稣	person	mc	序听迷诗所经	attested		
+messiah	Mšiḥā	Syriac	Semitic	Messiah	弥施诃|弥赛亚	term	mc	景教碑	attested		
+muhammad	Muḥammad	Arabic	Semitic	common Muslim name	摩诃末|马合麻|穆罕默德	name-element	mc	新唐书·大食传; 元史	attested		
+yelu		Khitan	Para-Mongolic	Khitan imperial clan name; original reading uncertain	耶律|移剌|移刺	ethnonym	mc	standard	attested		
+wanyan		Jurchen	Tungusic	Jurchen imperial clan name	完颜	ethnonym	om	standard	attested		
+illig	Illig	Old Turkic	Turkic	Eastern Türk qaghan (r. 620–630)	颉利	person	mc	standard	attested		
+begchor	Bäg Čor	Old Turkic	Turkic	personal name of Qapγan Qaghan	默啜	person	mc	standard	attested		
+irkin	irkin	Old Turkic	Turkic	tribal chief title	俟斤	title	mc	standard	attested		
+bilge	bilgä	Old Turkic	Turkic	"wise"	毗伽	name-element	mc	Orkhon inscriptions (Bilgä Qaghan)	attested		
+qutlugh	Qutluγ	Old Turkic	Turkic	"blessed, fortunate"	骨咄禄	name-element	mc	standard	attested		
+qarluq	Qarluq	Old Turkic	Turkic	the Karluks	葛逻禄|歌逻禄	ethnonym	mc	standard	attested		
+basmil	Basmïl	Old Turkic	Turkic	the Basmyl	拔悉密	ethnonym	mc	standard	attested		
+bolor	Bolor	(regional)	Other	Gilgit–Baltistan region	勃律	place	mc	standard	attested		
+mani	Mānī	Syriac	Semitic	founder of Manichaeism	摩尼	person	mc	standard	attested		
+brahmana	brāhmaṇa	Sanskrit	Indic	priestly class	婆罗门	term	mc	standard	attested		
+kasyapa	Kāśyapa	Sanskrit	Indic	disciple of the Buddha; name element	迦叶	person	mc	standard	attested		
+maitreya	Maitreya	Sanskrit	Indic	the future Buddha	弥勒	person	mc	standard	attested		
+dharma	dharma	Sanskrit	Indic	name element (Bodhidharma 菩提达摩)	达摩	name-element	mc	standard	attested		
+toqtoa	Toqto'a	Mongolic	Mongolic	common personal name	脱脱	name-element	om	standard	attested		
+bayan	Bayan	Mongolic / Turkic	Mongolic	"rich"	伯颜	name-element	om	standard	attested		
+bolad	Bolad	Mongolic	Mongolic	"steel"	孛罗	name-element	om	standard	attested		
+toghon	Toγon	Mongolic	Mongolic	"cauldron"	脱欢	name-element	om	standard	attested		
+chaghan	Čaγan	Mongolic	Mongolic	"white"	察罕	name-element	om	standard	attested		
+buqa	buqa	Mongolic / Turkic	Mongolic	"bull"	不花	name-element	om	standard	attested		
+qaya	qaya	Old Turkic	Turkic	"rock" (阿里海牙 = Ariq Qaya)	海牙	name-element	om	standard	attested		沙鹿海牙
+kelemechi	kelemeči	Mongolic	Mongolic	interpreter	怯里马赤	title	om	standard	attested		
+darqan	darqan	Mongolic / Turkic	Mongolic	privileged, tax-exempt rank	答剌罕|达剌罕	title	om	standard	attested		
+jarghuchi	jarγuči	Mongolic	Mongolic	judge	札鲁忽赤	title	om	standard	attested		
+ortoq	ortoq	Turkic / Mongolic	Turkic	"partner": merchant association	斡脱	term	om	standard	attested		
+danishmand	dānišmand	Persian	Iranian	"learned man" (Muslim scholar)	答失蛮	term	om	standard	attested		
+sayyid	Sayyid Ajall	Arabic	Semitic	honorific of 赛典赤·赡思丁	赛典赤	person	om	standard	attested		
+iduqqut	ïduq qut	Old Uyghur	Turkic	"sacred fortune": Uyghur ruler's title	亦都护	title	om	standard	attested		
+orus	Orus	Mongolic	Mongolic	Rus', Russians	斡罗思|俄罗斯|鄂罗斯	ethnonym	om	standard	attested		
+beshbaliq	Beš Balïq	Old Turkic	Turkic	"five towns"	别失八里	place	om	standard	attested		
+rum	Rūm	Ottoman / Chagatai usage (Arabic Rūm, "Rome")	Turkic	Ottoman Empire in the Ming; Rūm = "Rome": the Ottomans ruled the lands of Eastern Rome	鲁迷	place	om	周宏涛、许卓山 1957	attested	ottoman	鲁迷失
+kongkar	Khünkär	Turkic (Kazakh / Oirat usage)	Turkic	Qing name for the Ottoman Empire, usually explained from the title hünkâr "sovereign"; sometimes also Crimean Tatars / Nogais under Ottoman protection	控噶尔	place	qm	小沼孝博 2008; 钟焓 2010; Mosca 2010	attested	ottoman	
+turkiye	Türkiye	Turkish	Turkic	modern name of Turkey (late Qing onward)	土耳其	place	qm	standard	attested	ottoman	
+fulin	Frōm / Hrōm	Middle Iranian (from "Rome")	Iranian	Byzantium (Eastern Rome) in Tang–Song texts; the same "Rome" that later gives 鲁迷 Rūm	拂菻|拂林	place	mc	standard (exact intermediary debated)	attested		
+herat	Herāt	Persian	Iranian	city in Khorasan (Timurid capital)	哈烈	place	om	standard	attested		
+turpan	Turpan	(regional)	Other	Turfan oasis	土鲁番|吐鲁番	place	om	standard	attested		
+qumul	Qumul	Old Uyghur / Turkic	Turkic	Hami oasis	哈密	place	om	standard	attested		
+qazaq	Qazaq	Turkic	Turkic	the Kazakhs	哈萨克	ethnonym	om	standard	attested		
+baturu	baturu	Manchu (from Mongolic ba'atur)	Tungusic	"hero", Qing honorary title	巴图鲁	title	qm	standard	attested		
+janggin	janggin	Manchu (from Chinese 将军)	Tungusic	banner officer rank	章京	title	qm	standard	attested		
+beile	beile	Manchu	Tungusic	prince; continues Jurchen bogile	贝勒	title	qm	standard	attested	bogile-word	
+bogile	bogile	Jurchen	Tungusic	chief councillor (Jin); the word behind Manchu beile	勃极烈	title	om	金史	attested	bogile-word	
+gusa	gūsa	Manchu	Tungusic	banner	固山	term	qm	standard	attested		
+niru	niru	Manchu	Tungusic	company ("arrow")	牛录	term	qm	standard	attested		
+ejen	ejen	Manchu	Tungusic	"lord, master"	额真	title	qm	standard	attested		
+jungar	Jegün γar	Oirat Mongolic	Mongolic	"left wing": the Dzungars	准噶尔	ethnonym	qm	standard	attested		
+khalkha	Qalq-a	Mongolic	Mongolic	the Khalkha Mongols	喀尔喀	ethnonym	qm	standard	attested		
+torghut	Torγud	Oirat Mongolic	Mongolic	the Torghuts	土尔扈特	ethnonym	qm	standard	attested		
+khoshut	Qošud	Oirat Mongolic	Mongolic	the Khoshuts	和硕特	ethnonym	qm	standard	attested		
+dorbet	Dörbed	Oirat Mongolic	Mongolic	the Dörbets ("the four")	杜尔伯特	ethnonym	qm	standard	attested		
+dalai	dalai	Mongolic	Mongolic	"ocean" (title of the Dalai Lama)	达赖	title	qm	standard	attested		
+lama	bla ma	Tibetan	Tibetic	"teacher"	喇嘛	title	om	standard	attested		
+panchen	paṇ chen	Tibetan (from Sanskrit paṇḍita)	Tibetic	"great scholar"	班禅	title	qm	standard	attested		
+lhasa	Lha sa	Tibetan	Tibetic	"place of the gods"	拉萨	place	qm	standard	attested		
+potala	Potala	Tibetan (from Sanskrit Potalaka)	Tibetic	the palace in Lhasa	布达拉	place	qm	standard	attested		
+farang	Farang	Persian / Arabic (from "Franks")	Iranian	Europeans; in Ming texts the Portuguese	佛郎机	ethnonym	om	standard	attested		
+holland	Holland	Dutch	European	the Dutch	和兰|荷兰	place	om	standard	attested		
+italia	Italia	Italian / Latin	European	Italy	意大里亚|意大利	place	om	职方外纪; 明史	attested		
+ricci	Matteo Ricci	Italian	European	Jesuit missionary: 利 from Ricci, 玛窦 from Matteo	利玛窦	person	om	standard	attested		
+england	English	English	European	England	英吉利	place	qm	standard	attested		
+france	France	French	European	France	法兰西|佛兰西	place	qm	standard	attested		
+america	America	English	European	the United States	美利坚	place	qm	standard	attested		
+portugal	Portugal	Portuguese	European	Portugal	葡萄牙	place	qm	standard	attested		
+espana	España	Spanish	European	Spain	西班牙	place	qm	standard	attested		
+germania	Germania	Latin	European	Germany	日耳曼	place	qm	standard	attested		
+luzon	Luzon	Tagalog	Austronesian	Luzon (Philippines)	吕宋	place	om	明史	attested		
+melaka	Melaka	Malay	Austronesian	Malacca	满剌加	place	om	明史	attested		
+samudra	Samudra	Malay (from Sanskrit samudra "ocean")	Austronesian	Samudra-Pasai: the name Sumatra	苏门答剌	place	om	明史	attested		
+jawa	Jawa	Javanese	Austronesian	Java	爪哇	place	om	standard	attested		
+hormuz	Hormuz	Persian	Iranian	Hormuz	忽鲁谟斯	place	om	明史	attested		
+aden	ʿAdan	Arabic	Semitic	Aden	阿丹	place	om	明史	attested		
+dhofar	Ẓafār	Arabic	Semitic	Dhofar	祖法儿	place	om	明史	attested		
+madina	al-Madīna	Arabic	Semitic	Medina	默德那	place	om	明史	attested		
+mogadishu	Muqdisho	Somali	Other	Mogadishu	木骨都束	place	om	明史	attested		
+bengal	Bangāla	Bengali / Persian	Indic	Bengal	榜葛剌	place	om	明史	attested		
+calicut	Kōḻikkōṭ	Malayalam	Dravidian	Calicut (Kozhikode)	古里	place	om	明史	attested		
+kochi	Kochi	Malayalam	Dravidian	Cochin	柯枝	place	om	明史	attested		
+ceylon	Sīhala	Sanskrit / Pali	Indic	Ceylon ("lion [island]")	锡兰	place	om	明史	attested		
+bodhisattva	bodhisattva	Sanskrit	Indic	enlightenment being (菩萨 is the short form)	菩提萨埵|菩萨	term	mc	standard	attested		
+arhat	arhat	Sanskrit	Indic	"worthy one" (罗汉 is the short form)	阿罗汉|罗汉	term	mc	standard	attested		
+bhiksu	bhikṣu	Sanskrit	Indic	Buddhist monk	比丘	term	mc	standard	attested		
+nirvana	nirvāṇa	Sanskrit	Indic	extinction, release	涅槃	term	mc	standard	attested		
+prajna	prajñā	Sanskrit	Indic	wisdom	般若	term	mc	standard	attested		
+amitabha	Amitābha	Sanskrit	Indic	the Buddha of Infinite Light	阿弥陀	person	mc	standard	attested		
+sakya	Śākya	Sanskrit	Indic	the Buddha's clan	释迦	name-element	mc	standard	attested		
+gautama	Gautama	Sanskrit	Indic	the Buddha's family name	瞿昙	name-element	mc	standard	attested		
+sindhu	Sindhu	Sanskrit	Indic	the Indus; India	身毒	place	mc	史记; 汉书	attested		
+tengri	(cf. Turkic tängri)	Xiongnu	Other	"heaven"; usually compared with Turkic tängri	撑犁	term	mc	汉书·匈奴传	attested		

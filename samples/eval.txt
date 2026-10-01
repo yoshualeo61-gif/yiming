@@ -1,0 +1,42 @@
+a         b         scheme      mc     om  note
+斡啜        兀术        om       0.817  0.844  本名斡啜，又作兀术
+斡啜        斡出        om       1.000  1.000  亦作斡出
+兀术        斡出        om       0.817  0.844  
+粘没喝       粘罕        om       0.622  0.537  汉语讹为粘罕 (contraction: hard case)
+阿海        阿改        om       0.812  0.812  亦作阿改
+隈可        偎喝        om       0.381  0.812  隈可亦作偎喝
+蒲甲        蒲家        om       0.722  1.000  本名蒲甲，亦作蒲家
+合苏衮       曷苏馆       om       0.769  0.943  又作曷苏馆
+只孙        质孙        om       0.833  1.000  一作质孙
+速不台       雪不台       om       0.788  0.936  一人两传 (赵翼)
+斡亦剌       瓦剌        om       0.511  0.800  Oirat
+帖木儿       铁木儿       om       0.831  1.000  Temür
+阿骨打       阿固达       om       0.750  0.853  乾隆三史国语解 re-transcription
+飒秣建       撒马儿罕      om       0.623  0.878  Samarkand, cross-era
+浮屠        佛陀        mc       0.653  0.904  Buddha
+移鼠        耶稣        mc       0.844  0.844  Jesus
+弥施诃       弥赛亚       mc       0.779  0.779  Messiah
+禄山        Roxšan    mc       0.881  0.800  cross-script
+瓦剌        Oirat     om       0.537  0.373  cross-script
+
+positives: 19   negatives: 20000 random pairs from corpus biography names (2021 names), scheme om
+ threshold   recall  false-pos rate
+      0.70     0.84          0.0039
+      0.75     0.84          0.0027
+      0.80     0.79          0.0017
+      0.85     0.47          0.0010
+      0.90     0.32          0.0008
+      0.95     0.21          0.0001
+
+False-pos rate is per random pair. In a corpus of N names there are ~N²/2 pairs, so even 0.1% means many false hits: treat twins output as a review queue, not findings.
+
+Chinese form vs original (166 true pairs from the lexicon, 19920 wrong pairs)
+ threshold   recall  wrong kept
+      0.50     0.85      0.0686
+      0.55     0.78      0.0400
+      0.60     0.72      0.0223
+      0.65     0.64      0.0144
+      0.70     0.54      0.0075
+      0.75     0.50      0.0041
+      0.80     0.40      0.0020
+This threshold is propose --min-verify: an LLM proposal is kept only above it.

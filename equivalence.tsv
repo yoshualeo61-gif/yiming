@@ -1,0 +1,18 @@
+# Equivalence table for the reading layer. One row = one name (word), not one person.
+# canonical_zh rule used here: the most common spelling in the 二十四史 (change per row if you prefer another rule, but apply one rule everywhere).
+# variants: | separated, simplified or traditional both match. exclude: | strings where a variant is NOT this name.
+id	canonical_zh	latin	variants	foreign	scheme	confidence	note	exclude
+oirat	瓦剌	Oirat	斡亦剌|斡亦剌惕|瓦剌|厄鲁特|卫拉特	mn Ойрад; ru Ойраты (Volga branch: Калмыки)	om	high	元 斡亦剌(惕), 明 瓦剌, 清 厄鲁特/卫拉特. Ming 瓦剌 ≠ Qing 四卫拉特 exactly; 厄鲁特 can mean the Ölöt sub-group only	
+yelu	耶律	Yelü	耶律|移剌|移刺	Khitan clan name	om	high	金史 writes the Khitan clan 耶律 as 移剌	
+subutai	速不台	Sübe’etei	速不台|雪不台		om	high	元史 gives him two biographies under these two spellings (一人两传)	
+wuzhu	兀术	Wuzhu	兀术|斡啜|斡出|晃斡出		om	high	native name of 完颜宗弼 (金史: 本名斡啜，又作兀术，亦作斡出，或作晃斡出)	
+nimaha	粘没喝	Nimaha	粘没喝|粘罕		om	high	native name of 完颜宗翰; 金史: 汉语讹为粘罕	
+aguda	阿骨打	Aguda	阿骨打|阿固达		om	high	阿固达 is the Qianlong 三史国语解 re-spelling found in 四库 editions	
+temur	帖木儿	Temür	帖木儿|铁木儿|帖睦尔	Mongolian temür "iron"	om	high	name element in many Yuan names; also Timur (明史 帖木儿)	
+jisun	只孙	jisün	只孙|质孙		om	high	a word, not a person: one-colour court robe (明史: 只孙，一作质孙)	
+samarkand	撒马儿罕	Samarkand	飒秣建|撒马儿罕|撒马尔罕		om	medium	寻思干 (Turkic Semizkent) is a different name for the same city: deliberately not merged	
+buddha	佛陀	Buddha	浮屠|浮图|佛陀		mc	medium	浮屠/浮图 also mean stupa; exclusions below catch common cases only	级浮屠|级浮图|浮图寺|浮屠寺|建浮图|造浮图|起浮图
+tuoba	拓跋	Tuoba	拓跋|托跋|拓拔|托拔		mc	high		
+jesus	耶稣	Jesus	移鼠|耶稣	Syriac Išoʿ	mc	high	移鼠 in the 景教 text 序听迷诗所经	
+messiah	弥赛亚	Messiah	弥施诃|弥赛亚	Syriac mšiḥā	mc	high	弥施诃 on the 景教碑	
+roxshan	禄山	Roxšan	禄山	Sogdian rwxšn "bright"	mc	medium	安禄山’s given name; same Iranian root as Greek Roxana	
